@@ -1,4 +1,6 @@
 # coding: utf-8
+# frozen_string_literal: true
+
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "vagrant_sudo_rsync/identity"
@@ -9,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Tang Rufus", "Typist Tech"]
   spec.email         = ["tangrufus@gmail.com", "vagrant-sudo-rsync@typist.tech"]
 
-  spec.summary       = %q{Copy files from/to a Vagrant VM with sudo and necessary SSH config}
+  spec.summary       = "Copy files from/to a Vagrant VM with sudo and necessary SSH config"
   spec.homepage      = "https://www.typist.tech/projects/vagrant-sudo-rsync"
   spec.license       = "MIT"
 
