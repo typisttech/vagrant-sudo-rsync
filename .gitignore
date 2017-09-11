@@ -10,3 +10,5 @@
 
 .rbenv-gemsets
 .ruby-version
+
+.rubocop-http*
