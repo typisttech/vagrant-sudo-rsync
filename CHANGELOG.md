@@ -3,6 +3,8 @@
 ## [0.1.0](https://github.com/TypistTech/vagrant-sudo-rsync/tree/0.1.0) (2017-09-12)
 **Merged pull requests:**
 
+- Add rubocop [\#3](https://github.com/TypistTech/vagrant-sudo-rsync/pull/3) ([TangRufus](https://github.com/TangRufus))
+- Add changelog [\#2](https://github.com/TypistTech/vagrant-sudo-rsync/pull/2) ([TangRufus](https://github.com/TangRufus))
 - First release [\#1](https://github.com/TypistTech/vagrant-sudo-rsync/pull/1) ([TangRufus](https://github.com/TangRufus))
 
 
