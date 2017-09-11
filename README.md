@@ -4,7 +4,7 @@
 [![Gem](https://img.shields.io/gem/dt/vagrant-sudo-rsync.svg)](https://rubygems.org/gems/vagrant-sudo-rsync)
 [![Dependency Status](https://gemnasium.com/badges/github.com/TypistTech/vagrant-sudo-rsync.svg)](https://gemnasium.com/github.com/TypistTech/vagrant-sudo-rsync)
 [![license](https://img.shields.io/github/license/TypistTech/vagrant-sudo-rsync.svg)](https://github.com/TypistTech/vagrant-sudo-rsync/blob/master/LICENSE)
-[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.typist.tech/donate/sunny/)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.typist.tech/donate/vagrant-sudo-rsync/)
 [![Hire Typist Tech](https://img.shields.io/badge/Hire-Typist%20Tech-ff69b4.svg)](https://www.typist.tech/contact/)
 
 Copy files from/to a Vagrant VM with sudo and necessary SSH config
