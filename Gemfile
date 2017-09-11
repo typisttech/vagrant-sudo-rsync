@@ -2,5 +2,6 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# Specify your gem's dependencies in vagrant_sudo_rsync.gemspec
-gemspec
+group :plugins do
+  gem "vagrant-sudo-rsync", path: "."
+end
