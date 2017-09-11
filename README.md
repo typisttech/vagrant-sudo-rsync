@@ -38,16 +38,24 @@ $ vagrant plugin install vagrant-sudo-rsync
 ```bash
 # General
 ## This is equivalent to $ rsync --rsh=<automatically determined> --rsync-path='sudo rsync' [OPTION] SRC DEST
-$ vagrant sudo-rsync [OPTION] SRC DEST
+$ vagrant sudo-rsync [OPTION] SRC [DEST]
 
-# Synchronizing from local to remote
+## Synchronizing from local to remote
 $ vagrant sudo-rsync [OPTION] <some_local_file_or_dir> :<somewhere_on_the_vm>
 
-# Synchronizing from remote to local
+## Synchronizing from remote to local
 $ vagrant sudo-rsync [OPTION] :<somewhere_on_the_vm> <some_local_file_or_dir>
 
 # Real life example
-# Pulling /etc/nginx/ssl from remote to local desktop
+
+## Listing all files under /etc/nginx/ssl on remote
+$ vagrant sudo-rsync :/etc/nginx/ssl/
+drwx------          4,096 2017/09/12 00:32:17 .
+-rw-r--r--            424 2017/09/12 00:30:48 dhparams.pem
+-rw-r--r--          1,054 2017/09/12 00:32:17 www.example.cert
+-rw-r--r--          1,708 2017/09/12 00:32:17 www.example.key
+
+## Pulling /etc/nginx/ssl from remote to local desktop
 $ vagrant sudo-rsync -av --delete --info=NAME :/etc/nginx/ssl ~/Desktop
 receiving incremental file list
 ssl/

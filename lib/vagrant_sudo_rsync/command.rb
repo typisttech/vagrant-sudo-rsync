@@ -1,7 +1,9 @@
-require 'open3'
+# frozen_string_literal: true
+
+require "open3"
 
 module VagrantSudoRsync
-  class Command < Vagrant.plugin('2', :command)
+  class Command < Vagrant.plugin("2", :command)
     def self.synopsis
       "run rsync command with sudo and necessary SSH config"
     end
@@ -14,15 +16,13 @@ module VagrantSudoRsync
           "--rsh='#{rsh}'",
           "--rsync-path='sudo rsync'",
           ARGV
-      ].join(' ')
+      ].join(" ")
 
       system(command)
     end
 
-    private
-
     def rsh
-      'ssh '.concat(capture("echo '#{vagrant_ssh_config_without_host}' | awk -v ORS=' ' 'NF {print \"-o \" $1 \"=\" $2}'"))
+      "ssh " + capture("echo '#{vagrant_ssh_config_without_host}' | awk -v ORS=' ' 'NF {print \"-o \" $1 \"=\" $2}'")
     end
 
     def vagrant_ssh_config_without_host
@@ -30,11 +30,10 @@ module VagrantSudoRsync
     end
 
     def vagrant_ssh_config
-      capture('vagrant ssh-config')
+      capture("vagrant ssh-config")
     end
 
     def capture(command)
-
       stdout, stderr, status = Open3.capture3(command)
 
       unless status.success?
