@@ -135,4 +135,4 @@ Please see [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md) for details.
 
 ## License
 
-The MIT License (MIT). Please see [License File](./LICENSE) for more information.
+[Vagrant Sudo Rsync](https://github.com/TypistTech/vagrant-sudo-rsync) is released under the [MIT License](https://opensource.org/licenses/MIT).
