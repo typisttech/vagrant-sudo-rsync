@@ -1,8 +1,18 @@
 # Change Log
 
-## [0.1.0](https://github.com/TypistTech/vagrant-sudo-rsync/tree/0.1.0) (2017-09-12)
+## [0.1.1](https://github.com/TypistTech/vagrant-sudo-rsync/tree/0.1.1) (2019-03-06)
+[Full Changelog](https://github.com/TypistTech/vagrant-sudo-rsync/compare/v0.1.0...0.1.1)
+
 **Merged pull requests:**
 
+- Fix `Readme`; `$ bundle update`; Git: Commit `Gemfile.lock` [\#10](https://github.com/TypistTech/vagrant-sudo-rsync/pull/10) ([TangRufus](https://github.com/TangRufus))
+- Require ruby version `~\> 2.3` [\#6](https://github.com/TypistTech/vagrant-sudo-rsync/pull/6) ([TangRufus](https://github.com/TangRufus))
+- Fix incorrect link [\#5](https://github.com/TypistTech/vagrant-sudo-rsync/pull/5) ([TangRufus](https://github.com/TangRufus))
+
+## [v0.1.0](https://github.com/TypistTech/vagrant-sudo-rsync/tree/v0.1.0) (2017-09-11)
+**Merged pull requests:**
+
+- Version bump 0.1.0 [\#4](https://github.com/TypistTech/vagrant-sudo-rsync/pull/4) ([TangRufus](https://github.com/TangRufus))
 - Add rubocop [\#3](https://github.com/TypistTech/vagrant-sudo-rsync/pull/3) ([TangRufus](https://github.com/TangRufus))
 - Add changelog [\#2](https://github.com/TypistTech/vagrant-sudo-rsync/pull/2) ([TangRufus](https://github.com/TangRufus))
 - First release [\#1](https://github.com/TypistTech/vagrant-sudo-rsync/pull/1) ([TangRufus](https://github.com/TangRufus))
