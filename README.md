@@ -2,7 +2,6 @@
 
 [![Gem](https://img.shields.io/gem/v/vagrant-sudo-rsync.svg)](https://rubygems.org/gems/vagrant-sudo-rsync)
 [![Gem](https://img.shields.io/gem/dt/vagrant-sudo-rsync.svg)](https://rubygems.org/gems/vagrant-sudo-rsync)
-[![Dependency Status](https://gemnasium.com/badges/github.com/TypistTech/vagrant-sudo-rsync.svg)](https://gemnasium.com/github.com/TypistTech/vagrant-sudo-rsync)
 [![license](https://img.shields.io/github/license/TypistTech/vagrant-sudo-rsync.svg)](https://github.com/TypistTech/vagrant-sudo-rsync/blob/master/LICENSE)
 [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.typist.tech/donate/vagrant-sudo-rsync/)
 [![Hire Typist Tech](https://img.shields.io/badge/Hire-Typist%20Tech-ff69b4.svg)](https://www.typist.tech/contact/)
@@ -15,13 +14,16 @@ Copy files from/to a Vagrant VM with sudo and necessary SSH config
 
 - [Installation](#installation)
 - [Usage](#usage)
+  - [It looks awesome. Where can I find some more goodies like this?](#it-looks-awesome-where-can-i-find-some-more-goodies-like-this)
+  - [I love this project. Where can I give a :star::star::star::star::star: review?](#i-love-this-project-where-can-i-give-a-starstarstarstarstar-review)
 - [Support!](#support)
-  - [Donate via PayPal *](#donate-via-paypal-)
+  - [Donate](#donate)
   - [Why don't you hire me?](#why-dont-you-hire-me)
   - [Want to help in other way? Want to be a sponsor?](#want-to-help-in-other-way-want-to-be-a-sponsor)
 - [Feedback](#feedback)
-- [Change log](#change-log)
-- [Author Information](#author-information)
+- [Change Log](#change-log)
+- [Security](#security)
+- [Credits](#credits)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -73,15 +75,35 @@ total size is 3,186  speedup is 0.90
 - Anything after `$ vagrant sudo-rsync` is passed to `$ rsync`
 - Never specific `--rsh`, `-e` or `--rsync-path`
 
+### It looks awesome. Where can I find some more goodies like this?
+
+* Articles on Typist Tech's [blog](https://typist.tech)
+* [Tang Rufus' WordPress plugins](https://profiles.wordpress.org/tangrufus#content-plugins) on wp.org
+* More projects on [Typist Tech's GitHub profile](https://github.com/TypistTech)
+* Stay tuned on [Typist Tech's newsletter](https://typist.tech/go/newsletter)
+* Follow [Tang Rufus' Twitter account](https://twitter.com/TangRufus)
+
+### I love this project. Where can I give a :star::star::star::star::star: review?
+
+Thanks! Glad you like it. It's important to let mw know this project is useful to somebody. Please consider:
+
+- tweet something good with mentioning [@TypistTech](https://twitter.com/typisttech) and [@TangRufus](https://twitter.com/tangrufus)
+- :star: this [Github repo](https://github.com/ItinerisLtd/vagrant-sudo-rsync)
+- watch this [Github repo](https://github.com/ItinerisLtd/vagrant-sudo-rsync)
+- write blog posts
+- submit pull requests
+- [donate](https://typist.tech/donate/)
+- [hire me](https://typist.tech/contact/)
+
 ## Support!
 
-### Donate via PayPal [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.typist.tech/donate/vagrant-sudo-rsync/)
+### Donate
 
-Love Vagrant Sudo Rsync? Help me maintain it, a [donation here](https://www.typist.tech/donate/vagrant-sudo-rsync/) can help with it.
+Love Vagrant Sudo Rsync? Help me maintain it, a [donation here](https://typist.tech/donation/) can help with it.
 
 ### Why don't you hire me?
 
-Ready to take freelance WordPress jobs. Contact me via the contact form [here](https://www.typist.tech/contact/) or, via email [info@typist.tech](mailto:info@typist.tech)
+Ready to take freelance WordPress jobs. Contact me via the contact form [here](https://typist.tech/contact/) or, via email [info@typist.tech](mailto:info@typist.tech)
 
 ### Want to help in other way? Want to be a sponsor?
 
@@ -93,13 +115,17 @@ Contact: [Tang Rufus](mailto:tangrufus@gmail.com)
 Please submit an [issue](https://github.com/TypistTech/vagrant-sudo-rsync/issues/new) and point out what you do and don't like, or fork the project and make suggestions.
 **No issue is too small.**
 
-## Change log
+## Change Log
 
 Please see [CHANGELOG](./CHANGELOG.md) for more information on what has changed recently.
 
-## Author Information
+## Security
 
-[Vagrant Sudo Rsync](https://github.com/TypistTech/vagrant-sudo-rsync) is a [Typist Tech](https://www.typist.tech) project and maintained by [Tang Rufus](https://twitter.com/Tangrufus), freelance developer for [hire](https://www.typist.tech/contact/).
+If you discover any security related issues, please email [vagrant-sudo-rsync@typist.tech](mailto:vagrant-sudo-rsync@typist.tech) instead of using the issue tracker.
+
+## Credits
+
+[Vagrant Sudo Rsync](https://github.com/TypistTech/vagrant-sudo-rsync) is a [Typist Tech](https://typist.tech) project and maintained by [Tang Rufus](https://twitter.com/TangRufus), freelance developer for [hire](https://typist.tech/contact/).
 
 Full list of contributors can be found [here](https://github.com/TypistTech/vagrant-sudo-rsync/graphs/contributors).
 
@@ -109,4 +135,4 @@ Please see [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md) for details.
 
 ## License
 
-[Vagrant Sudo Rsync](https://github.com/TypistTech/vagrant-sudo-rsync) is released under the [MIT License](https://opensource.org/licenses/MIT).
+The MIT License (MIT). Please see [License File](./LICENSE) for more information.
